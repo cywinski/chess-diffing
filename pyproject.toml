@@ -1,0 +1,22 @@
+[project]
+name = "chess-diffing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.6.0",
+    "chess>=1.11.2",
+    "datasets>=3.5.0",
+    "gdown>=5.2.0",
+    "numpy==1.23.5",
+    "peft>=0.15.1",
+    "pgn-read>=2.4",
+    "prettytable==0.7.2",
+    "protobuf==3.20.1",
+    "python-dotenv>=1.1.0",
+    "pytorch-lightning==0.9.0",
+    "torch>=2.6.0",
+    "transformers>=4.50.3",
+    "wandb>=0.19.9",
+]
